@@ -1,0 +1,13 @@
+[project]
+name = "nekoript"
+version = "0.1.0"
+description = "这是一个 python 脚本执行器，用于统一脚本运行入口，避免脚本名污染 shell 的变量。"
+authors = [{ name = "nek0x1a", email = "neko@eroneko.eu.org" }]
+readme = "README.md"
+license-files = ["LICENSE"]
+requires-python = ">=3.14"
+
+dependencies = ["typer>=0.25.1"]
+
+[project.entry-points."nekoript.plugins"]
+hello = "plugins.hello:app"
