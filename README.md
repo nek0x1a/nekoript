@@ -14,5 +14,6 @@ uv pip install -e .
 ## 使用
 
 ```bash
+uv tool install .
 uv run main.py
 ```

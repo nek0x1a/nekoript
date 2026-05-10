@@ -6,8 +6,19 @@ authors = [{ name = "nek0x1a", email = "neko@eroneko.eu.org" }]
 readme = "README.md"
 license-files = ["LICENSE"]
 requires-python = ">=3.14"
+classifiers = [
+    "Natural Language :: Chinese (Simplified)",
+    "Environment :: Console",
+    "Topic :: Utilities",
+]
 
 dependencies = ["typer>=0.25.1"]
+
+[project.urls]
+Repository = "https://github.com/nek0x1a/nekoript"
+
+[project.scripts]
+nekoript = "cli:cli_run"
 
 [project.entry-points."nekoript.plugins"]
 hello = "plugins.hello:app"
