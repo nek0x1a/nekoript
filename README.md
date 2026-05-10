@@ -11,9 +11,14 @@ uv sync
 uv pip install -e .
 ```
 
+## 安装
+
+```bash
+uv tool install nekoript
+```
+
 ## 使用
 
 ```bash
-uv tool install .
-uv run main.py
+nekoript [option] [[subcommand] [subcommand_args]]
 ```

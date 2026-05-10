@@ -1,6 +1,6 @@
 [project]
 name = "nekoript"
-version = "0.1.0"
+version = "0.1.1"
 description = "这是一个 python 脚本执行器，用于统一脚本运行入口，避免脚本名污染 shell 的变量。"
 authors = [{ name = "nek0x1a", email = "neko@eroneko.eu.org" }]
 readme = "README.md"
